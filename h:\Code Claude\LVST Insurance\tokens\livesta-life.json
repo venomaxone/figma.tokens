@@ -1,0 +1,3565 @@
+{
+  "core": {
+    "10": {
+      " field text": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.400}",
+          "lineHeight": "{01-basic text.02-line height.05-field}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.3}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      }
+    },
+    "11": {
+      " menu": {
+        "item": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font family}",
+            "fontWeight": "{01-:font weight.600}",
+            "lineHeight": "{01-basic text.02-line height.04- bread crumbs}",
+            "fontSize": "{fontSize.3}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.uppercase}",
+            "textDecoration": "{textDecoration.none}"
+          }
+        }
+      }
+    },
+    "12": {
+      " menu": {
+        "side B1": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font family}",
+            "fontWeight": "{01-:font weight.400}",
+            "lineHeight": "{01-basic text.02-line height.07-side menu}",
+            "fontSize": "{fontSize.3}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          }
+        }
+      }
+    },
+    "13": {
+      " menu": {
+        "side B2": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font family}",
+            "fontWeight": "{01-:font weight.500}",
+            "lineHeight": "{01-basic text.02-line height.07-side menu}",
+            "fontSize": "{fontSize.3}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.1}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          }
+        }
+      }
+    },
+    "14": {
+      " chart text": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.500}",
+          "lineHeight": "{01-basic text.02-line height.04- bread crumbs}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      }
+    },
+    "15": {
+      " table text": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.500}",
+          "lineHeight": "{01-basic text.02-line height.09-table text}",
+          "fontSize": "{fontSize.1}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      }
+    },
+    "16": {
+      " chart": {
+        "$type": "color",
+        "$value": "linear-gradient(180deg, #eacffc 0%, #ad33ff 50.48%, #4c0080 100%)"
+      },
+      " table text": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.500}",
+          "lineHeight": "{01-basic text.02-line height.10-table text}",
+          "fontSize": "{fontSize.0}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      }
+    },
+    "17": {
+      " table": {
+        "$type": "color",
+        "$value": "linear-gradient(180deg, #f4e7fd 0%, #dfb8f9 100%)"
+      },
+      " body B3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.500}",
+          "lineHeight": "{01-basic text.02-line height.07-side menu}",
+          "fontSize": "{fontSize.4}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      }
+    },
+    "18": {
+      " card C1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.500}",
+          "lineHeight": "{01-basic text.02-line height.07-side menu}",
+          "fontSize": "{fontSize.3}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      }
+    },
+    "30": {
+      " divider": {
+        "$type": "color",
+        "$value": "#e8e9f2"
+      }
+    },
+    "dimension": {
+      "scale": {
+        "$type": "dimension",
+        "$value": "2"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "4"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{dimension.xs} * {dimension.scale}"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{dimension.sm} * {dimension.scale}"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "{dimension.md} * {dimension.scale}"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{dimension.lg} * {dimension.scale}"
+      }
+    },
+    "spacing": {
+      "xs": {
+        "$type": "spacing",
+        "$value": "{dimension.xs}"
+      },
+      "sm": {
+        "$type": "spacing",
+        "$value": "{dimension.sm}"
+      },
+      "md": {
+        "$type": "spacing",
+        "$value": "{dimension.md}"
+      },
+      "lg": {
+        "$type": "spacing",
+        "$value": "{dimension.lg}"
+      },
+      "xl": {
+        "$type": "spacing",
+        "$value": "{dimension.xl}"
+      },
+      "multi-value": {
+        "$type": "spacing",
+        "$value": "{dimension.sm} {dimension.xl}",
+        "$description": "You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens"
+      }
+    },
+    "borderRadius": {
+      "sm": {
+        "$type": "borderRadius",
+        "$value": "4"
+      },
+      "lg": {
+        "$type": "borderRadius",
+        "$value": "8"
+      },
+      "xl": {
+        "$type": "borderRadius",
+        "$value": "16"
+      },
+      "multi-value": {
+        "$type": "borderRadius",
+        "$value": "{borderRadius.sm} {borderRadius.lg}",
+        "$description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
+      }
+    },
+    "colors": {
+      "black": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "white": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "gray": {
+        "100": {
+          "$type": "color",
+          "$value": "#f7fafc"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#edf2f7"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#e2e8f0"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#cbd5e0"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#a0aec0"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#718096"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#4a5568"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#2d3748"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#1a202c"
+        }
+      },
+      "red": {
+        "100": {
+          "$type": "color",
+          "$value": "#fff5f5"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#fed7d7"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#feb2b2"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#fc8181"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#f56565"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#e53e3e"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#c53030"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#9b2c2c"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#742a2a"
+        }
+      },
+      "orange": {
+        "100": {
+          "$type": "color",
+          "$value": "#fffaf0"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#feebc8"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#fbd38d"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#f6ad55"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#ed8936"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#dd6b20"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#c05621"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#9c4221"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#7b341e"
+        }
+      },
+      "yellow": {
+        "100": {
+          "$type": "color",
+          "$value": "#fffff0"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#fefcbf"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#faf089"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#f6e05e"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#ecc94b"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#d69e2e"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#b7791f"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#975a16"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#744210"
+        }
+      },
+      "green": {
+        "100": {
+          "$type": "color",
+          "$value": "#f0fff4"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#c6f6d5"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#9ae6b4"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#68d391"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#48bb78"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#38a169"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#2f855a"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#276749"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#22543d"
+        }
+      },
+      "teal": {
+        "100": {
+          "$type": "color",
+          "$value": "#e6fffa"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#b2f5ea"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#81e6d9"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#4fd1c5"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#38b2ac"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#319795"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#2c7a7b"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#285e61"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#234e52"
+        }
+      },
+      "blue": {
+        "100": {
+          "$type": "color",
+          "$value": "#ebf8ff"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#bee3f8"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#90cdf4"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#63b3ed"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#4299e1"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#3182ce"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#2b6cb0"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#2c5282"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#2a4365"
+        }
+      },
+      "indigo": {
+        "100": {
+          "$type": "color",
+          "$value": "#ebf4ff"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#c3dafe"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#a3bffa"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#7f9cf5"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#667eea"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#5a67d8"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#4c51bf"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#434190"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#3c366b"
+        }
+      },
+      "purple": {
+        "100": {
+          "$type": "color",
+          "$value": "#faf5ff"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#e9d8fd"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#d6bcfa"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#b794f4"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#9f7aea"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#805ad5"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#6b46c1"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#553c9a"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#44337a"
+        }
+      },
+      "pink": {
+        "100": {
+          "$type": "color",
+          "$value": "#fff5f7"
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#fed7e2"
+        },
+        "300": {
+          "$type": "color",
+          "$value": "#fbb6ce"
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#f687b3"
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#ed64a6"
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#d53f8c"
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#b83280"
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#97266d"
+        },
+        "900": {
+          "$type": "color",
+          "$value": "#702459"
+        }
+      }
+    },
+    "opacity": {
+      "low": {
+        "$type": "opacity",
+        "$value": "10%"
+      },
+      "md": {
+        "$type": "opacity",
+        "$value": "50%"
+      },
+      "high": {
+        "$type": "opacity",
+        "$value": "90%"
+      }
+    },
+    "fontFamilies": {
+      "heading": {
+        "$type": "fontFamilies",
+        "$value": "Inter"
+      },
+      "body": {
+        "$type": "fontFamilies",
+        "$value": "Roboto"
+      }
+    },
+    "lineHeights": {
+      "heading": {
+        "$type": "lineHeights",
+        "$value": "110%"
+      },
+      "body": {
+        "$type": "lineHeights",
+        "$value": "140%"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "$type": "letterSpacing",
+        "$value": "0%"
+      },
+      "default": {
+        "$type": "letterSpacing",
+        "$value": "0"
+      },
+      "increased": {
+        "$type": "letterSpacing",
+        "$value": "150%"
+      },
+      "decreased": {
+        "$type": "letterSpacing",
+        "$value": "-5%"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "$type": "paragraphSpacing",
+        "$value": 0
+      },
+      "1": {
+        "$type": "paragraphSpacing",
+        "$value": 8
+      },
+      "2": {
+        "$type": "paragraphSpacing",
+        "$value": 16
+      },
+      "3": {
+        "$type": "paragraphSpacing",
+        "$value": 20
+      },
+      "4": {
+        "$type": "paragraphSpacing",
+        "$value": 26
+      },
+      "h1": {
+        "$type": "paragraphSpacing",
+        "$value": "32"
+      },
+      "h2": {
+        "$type": "paragraphSpacing",
+        "$value": "26"
+      }
+    },
+    "fontWeights": {
+      "headingRegular": {
+        "$type": "fontWeights",
+        "$value": "Regular"
+      },
+      "headingBold": {
+        "$type": "fontWeights",
+        "$value": "Bold"
+      },
+      "bodyRegular": {
+        "$type": "fontWeights",
+        "$value": "Regular"
+      },
+      "bodyBold": {
+        "$type": "fontWeights",
+        "$value": "Bold"
+      }
+    },
+    "fontSizes": {
+      "h1": {
+        "$type": "fontSizes",
+        "$value": "roundTo({fontSizes.body}*1.25^5)"
+      },
+      "h2": {
+        "$type": "fontSizes",
+        "$value": "roundTo({fontSizes.body}*1.25^4)"
+      },
+      "h3": {
+        "$type": "fontSizes",
+        "$value": "roundTo({fontSizes.body}*1.25^3)"
+      },
+      "h4": {
+        "$type": "fontSizes",
+        "$value": "roundTo({fontSizes.body}*1.25^2)"
+      },
+      "h5": {
+        "$type": "fontSizes",
+        "$value": "roundTo({fontSizes.body}*1.25^1)"
+      },
+      "h6": {
+        "$type": "fontSizes",
+        "$value": "{fontSizes.body}"
+      },
+      "body": {
+        "$type": "fontSizes",
+        "$value": "16"
+      },
+      "sm": {
+        "$type": "fontSizes",
+        "$value": "{fontSizes.body} * 0.85"
+      },
+      "xs": {
+        "$type": "fontSizes",
+        "$value": "{fontSizes.body} * 0.65"
+      }
+    },
+    "01": {
+      " heading": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      " brand 200": {
+        "$type": "color",
+        "$value": "#eacffc"
+      },
+      " brand 100": {
+        "$type": "color",
+        "$value": "#f4e7fd"
+      },
+      " accent 500 (base)": {
+        "$type": "color",
+        "$value": "#ff361b"
+      },
+      " stroke card": {
+        "$type": "color",
+        "$value": "linear-gradient(180deg, #ffffff 0%, #efefef 100%)"
+      },
+      " card purrple": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "color": "#7a00cc00",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 53,
+            "blur": 15,
+            "spread": 0
+          },
+          {
+            "color": "#7a00cc05",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 34,
+            "blur": 14,
+            "spread": 0
+          },
+          {
+            "color": "#7a00cc0f",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 19,
+            "blur": 11,
+            "spread": 0
+          },
+          {
+            "color": "#7a00cc1a",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 8,
+            "blur": 8,
+            "spread": 0
+          },
+          {
+            "color": "#7a00cc1f",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 2,
+            "blur": 5,
+            "spread": 0
+          }
+        ]
+      },
+      " H2 heading": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.600}",
+          "lineHeight": "{01-basic text.02-line height.02-heading H2}",
+          "fontSize": "{fontSize.7}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.4}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      }
+    },
+    "02": {
+      " body": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      " stroke invert card": {
+        "$type": "color",
+        "$value": "linear-gradient(180deg, #efefef 0%, #ffffff 100%)"
+      },
+      " card white": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "color": "#9e9e9e00",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 53,
+            "blur": 15,
+            "spread": 0
+          },
+          {
+            "color": "#9e9e9e05",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 34,
+            "blur": 14,
+            "spread": 0
+          },
+          {
+            "color": "#9e9e9e0a",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 19,
+            "blur": 11,
+            "spread": 0
+          },
+          {
+            "color": "#9e9e9e1a",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 8,
+            "blur": 8,
+            "spread": 0
+          },
+          {
+            "color": "#9e9e9e1f",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 2,
+            "blur": 5,
+            "spread": 0
+          }
+        ]
+      },
+      " body H1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.400}",
+          "lineHeight": "{01-basic text.02-line height.02-body H1}",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.2}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      },
+      " body H3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.500}",
+          "lineHeight": "{01-basic text.02-line height.05-body H3}",
+          "fontSize": "{fontSize.6}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.2}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      },
+      " body H2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.500}",
+          "lineHeight": "{01-basic text.02-line height.02-body H1}",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.2}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      }
+    },
+    "03": {
+      " body added": {
+        "$type": "color",
+        "$value": "#4d4d4d"
+      },
+      " brand text": {
+        "$type": "color",
+        "$value": "#ad33ff"
+      }
+    },
+    "04": {
+      " brand 400": {
+        "$type": "color",
+        "$value": "#c266ff"
+      },
+      " H1 heading": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.700}",
+          "lineHeight": "{01-basic text.02-line height.01-heading H1}",
+          "fontSize": "{fontSize.9}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      },
+      " H3 heading": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.500}",
+          "lineHeight": "{01-basic text.02-line height.01-heading H1}",
+          "fontSize": "{fontSize.9}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      },
+      " body H2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.500}",
+          "lineHeight": "{01-basic text.02-line height.02-body H2}",
+          "fontSize": "{fontSize.7}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.2}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      }
+    },
+    "05": {
+      " brand 500 (base)": {
+        "$type": "color",
+        "$value": "#ad33ff"
+      },
+      " button": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.500}",
+          "lineHeight": "{01-basic text.02-line height.02-body H1}",
+          "fontSize": "{fontSize.5}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.3}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      }
+    },
+    "06": {
+      " brand 600": {
+        "$type": "color",
+        "$value": "#a31aff"
+      }
+    },
+    "07": {
+      " brand 700": {
+        "$type": "color",
+        "$value": "#7a00cc"
+      },
+      " card": {
+        "prog H1": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font family}",
+            "fontWeight": "{01-:font weight.600}",
+            "lineHeight": "{02-card programs text.02-line height.01-card heading H1}",
+            "fontSize": "{fontSize.8}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.3}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          }
+        }
+      }
+    },
+    "01-white": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "04-:grey-050": {
+      "$type": "color",
+      "$value": "#fafafa"
+    },
+    "05-grey 100": {
+      "$type": "color",
+      "$value": "#f0f0f0"
+    },
+    "04-grey 200": {
+      "$type": "color",
+      "$value": "#efefef"
+    },
+    "02-grey 300": {
+      "$type": "color",
+      "$value": "#cbcdd9"
+    },
+    "03-grey 700": {
+      "$type": "color",
+      "$value": "#959aaa"
+    },
+    "03-grey 700 opp ic": {
+      "$type": "color",
+      "$value": "#959aaa26"
+    },
+    "10-button fill": {
+      "$type": "color",
+      "$value": "#ad33ff"
+    },
+    "11-button text": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "12-button icon": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "20-:card": {
+      "prog": {
+        "H1": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "body": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      }
+    },
+    "xxl": {
+      "shdw": {
+        "01": {
+          " card purrple": {
+            "$type": "boxShadow",
+            "$value": [
+              {
+                "color": "#7a00cc00",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 229,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc03",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 147,
+                "blur": 59,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc0a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 83,
+                "blur": 50,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc0f",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 37,
+                "blur": 37,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc12",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 9,
+                "blur": 20,
+                "spread": 0
+              }
+            ]
+          },
+          " button purrple": {
+            "$type": "boxShadow",
+            "$value": [
+              {
+                "color": "#7a00cc00",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 17,
+                "blur": 5,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc03",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 11,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc0d",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 6,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc17",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 3,
+                "blur": 3,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc1a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 1,
+                "blur": 1,
+                "spread": 0
+              }
+            ]
+          }
+        },
+        "02": {
+          " card white": {
+            "$type": "boxShadow",
+            "$value": [
+              {
+                "color": "#9e9e9e00",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 229,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e03",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 147,
+                "blur": 59,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e0a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 83,
+                "blur": 50,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e0f",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 37,
+                "blur": 37,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e12",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 9,
+                "blur": 20,
+                "spread": 0
+              }
+            ]
+          },
+          " button white": {
+            "$type": "boxShadow",
+            "$value": [
+              {
+                "color": "#9e9e9e00",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 17,
+                "blur": 5,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e03",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 11,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e0d",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 6,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e17",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 3,
+                "blur": 3,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e1a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 1,
+                "blur": 1,
+                "spread": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    "font family": {
+      "$type": "fontFamilies",
+      "$value": "Gilroy"
+    },
+    "01-basic text": {
+      "02-line height": {
+        "01-heading H1": {
+          "$type": "lineHeights",
+          "$value": "54"
+        },
+        "02-body H1": {
+          "$type": "lineHeights",
+          "$value": "28"
+        },
+        "05-body H3": {
+          "$type": "lineHeights",
+          "$value": "32"
+        },
+        "02-heading H2": {
+          "$type": "lineHeights",
+          "$value": "38"
+        },
+        "02-body H2": {
+          "$type": "lineHeights",
+          "$value": "40"
+        },
+        "03-button text": {
+          "$type": "lineHeights",
+          "$value": "28"
+        },
+        "04- bread crumbs": {
+          "$type": "lineHeights",
+          "$value": "20"
+        },
+        "05-field": {
+          "$type": "lineHeights",
+          "$value": "22"
+        },
+        "06-menu item": {
+          "$type": "lineHeights",
+          "$value": "20"
+        },
+        "07-side menu": {
+          "$type": "lineHeights",
+          "$value": "24"
+        },
+        "08-chart text": {
+          "$type": "lineHeights",
+          "$value": "20"
+        },
+        "09-table text": {
+          "$type": "lineHeights",
+          "$value": "16"
+        },
+        "10-table text": {
+          "$type": "lineHeights",
+          "$value": "14"
+        },
+        "11-body B2": {
+          "$type": "lineHeights",
+          "$value": "24"
+        },
+        "12-card C1": {
+          "$type": "lineHeights",
+          "$value": "24"
+        }
+      }
+    },
+    "02-card programs text": {
+      "02-line height": {
+        "01-card heading H1": {
+          "$type": "lineHeights",
+          "$value": "50"
+        },
+        "02-card body": {
+          "$type": "lineHeights",
+          "$value": "28"
+        }
+      }
+    },
+    "01-:font weight": {
+      "400": {
+        "$type": "fontWeights",
+        "$value": "Regular"
+      },
+      "500": {
+        "$type": "fontWeights",
+        "$value": "Medium"
+      },
+      "600": {
+        "$type": "fontWeights",
+        "$value": "SemiBold"
+      },
+      "700": {
+        "$type": "fontWeights",
+        "$value": "Bold"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "$type": "fontSizes",
+        "$value": 10
+      },
+      "1": {
+        "$type": "fontSizes",
+        "$value": 12
+      },
+      "2": {
+        "$type": "fontSizes",
+        "$value": 14
+      },
+      "3": {
+        "$type": "fontSizes",
+        "$value": 16
+      },
+      "4": {
+        "$type": "fontSizes",
+        "$value": 18
+      },
+      "5": {
+        "$type": "fontSizes",
+        "$value": 20
+      },
+      "6": {
+        "$type": "fontSizes",
+        "$value": 24
+      },
+      "7": {
+        "$type": "fontSizes",
+        "$value": 28
+      },
+      "8": {
+        "$type": "fontSizes",
+        "$value": 36
+      },
+      "9": {
+        "$type": "fontSizes",
+        "$value": 40
+      }
+    },
+    "08": {
+      " card": {
+        "prog body": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{font family}",
+            "fontWeight": "{01-:font weight.500}",
+            "lineHeight": "{01-basic text.02-line height.02-body H1}",
+            "fontSize": "{fontSize.5}",
+            "letterSpacing": "{letterSpacing.0}",
+            "paragraphSpacing": "{paragraphSpacing.0}",
+            "paragraphIndent": "{paragraphIndent.0}",
+            "textCase": "{textCase.none}",
+            "textDecoration": "{textDecoration.none}"
+          }
+        }
+      }
+    },
+    "09": {
+      " bread crumb": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font family}",
+          "fontWeight": "{01-:font weight.500}",
+          "lineHeight": "{01-basic text.02-line height.04- bread crumbs}",
+          "fontSize": "{fontSize.2}",
+          "letterSpacing": "{letterSpacing.0}",
+          "paragraphSpacing": "{paragraphSpacing.0}",
+          "paragraphIndent": "{paragraphIndent.0}",
+          "textCase": "{textCase.none}",
+          "textDecoration": "{textDecoration.none}"
+        }
+      }
+    },
+    "textCase": {
+      "none": {
+        "$type": "textCase",
+        "$value": "none"
+      },
+      "uppercase": {
+        "$type": "textCase",
+        "$value": "uppercase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "$type": "textDecoration",
+        "$value": "none"
+      }
+    },
+    "paragraphIndent": {
+      "0": {
+        "$type": "dimension",
+        "$value": "0px"
+      }
+    }
+  },
+  "light": {
+    "fg": {
+      "default": {
+        "$type": "color",
+        "$value": "{colors.black}"
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{colors.gray.700}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{colors.gray.500}"
+      }
+    },
+    "bg": {
+      "default": {
+        "$type": "color",
+        "$value": "{colors.white}"
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{colors.gray.100}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{colors.gray.200}"
+      }
+    },
+    "accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{colors.indigo.400}"
+      },
+      "onAccent": {
+        "$type": "color",
+        "$value": "{colors.white}"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{colors.indigo.200}"
+      }
+    },
+    "shadows": {
+      "default": {
+        "$type": "color",
+        "$value": "{colors.gray.900}"
+      }
+    }
+  },
+  "dark": {
+    "fg": {
+      "default": {
+        "$type": "color",
+        "$value": "{colors.white}"
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{colors.gray.300}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{colors.gray.500}"
+      }
+    },
+    "bg": {
+      "default": {
+        "$type": "color",
+        "$value": "{colors.gray.900}"
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{colors.gray.700}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{colors.gray.600}"
+      }
+    },
+    "accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{colors.indigo.600}"
+      },
+      "onAccent": {
+        "$type": "color",
+        "$value": "{colors.white}"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{colors.indigo.800}"
+      }
+    },
+    "shadows": {
+      "default": {
+        "$type": "color",
+        "$value": "rgba({colors.black}, 0.3)"
+      }
+    }
+  },
+  "theme": {
+    "button": {
+      "primary": {
+        "background": {
+          "$type": "color",
+          "$value": "{accent.default}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{accent.onAccent}"
+        }
+      },
+      "borderRadius": {
+        "$type": "borderRadius",
+        "$value": "{borderRadius.lg}"
+      },
+      "borderWidth": {
+        "$type": "borderWidth",
+        "$value": "{dimension.sm}"
+      }
+    },
+    "card": {
+      "borderRadius": {
+        "$type": "borderRadius",
+        "$value": "{borderRadius.lg}"
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{bg.default}"
+      },
+      "padding": {
+        "$type": "dimension",
+        "$value": "{dimension.md}"
+      }
+    },
+    "boxShadow": {
+      "default": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": 5,
+            "y": 5,
+            "spread": 3,
+            "color": "rgba({shadows.default}, 0.15)",
+            "blur": 5,
+            "$type": "dropShadow"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "spread": 6,
+            "color": "#00000033",
+            "blur": 5,
+            "$type": "innerShadow"
+          }
+        ]
+      }
+    },
+    "typography": {
+      "H1": {
+        "Bold": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.headingBold}",
+            "lineHeight": "{lineHeights.heading}",
+            "fontSize": "{fontSizes.h1}",
+            "paragraphSpacing": "{paragraphSpacing.h1}",
+            "letterSpacing": "{letterSpacing.decreased}"
+          }
+        },
+        "Regular": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.headingRegular}",
+            "lineHeight": "{lineHeights.heading}",
+            "fontSize": "{fontSizes.h1}",
+            "paragraphSpacing": "{paragraphSpacing.h1}",
+            "letterSpacing": "{letterSpacing.decreased}"
+          }
+        }
+      },
+      "H2": {
+        "Bold": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.headingBold}",
+            "lineHeight": "{lineHeights.heading}",
+            "fontSize": "{fontSizes.h2}",
+            "paragraphSpacing": "{paragraphSpacing.h2}",
+            "letterSpacing": "{letterSpacing.decreased}"
+          }
+        },
+        "Regular": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": "{fontFamilies.heading}",
+            "fontWeight": "{fontWeights.headingRegular}",
+            "lineHeight": "{lineHeights.heading}",
+            "fontSize": "{fontSizes.h2}",
+            "paragraphSpacing": "{paragraphSpacing.h2}",
+            "letterSpacing": "{letterSpacing.decreased}"
+          }
+        }
+      },
+      "Body": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{fontFamilies.body}",
+          "fontWeight": "{fontWeights.bodyRegular}",
+          "lineHeight": "{lineHeights.heading}",
+          "fontSize": "{fontSizes.body}",
+          "paragraphSpacing": "{paragraphSpacing.h2}"
+        }
+      }
+    }
+  },
+  "⭐ 01. color basic  /Mode 1": {
+    "01-:base color": {
+      "04-:brand 500:base": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#ad33ff"
+      },
+      "01-:white": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "02-:black": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "08-:brand 200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#eacffc"
+      },
+      "11-:grey-300": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#e5e5e5"
+      },
+      "15-:grey-200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#efefef"
+      },
+      "09-:brand 900": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#4c0080"
+      },
+      "12-:grey-600": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#9e9e9e"
+      },
+      "05-:brand 400": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#c266ff"
+      },
+      "06-:brand 600": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#a31aff"
+      },
+      "14-:grey-300": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#cbcdd9"
+      },
+      "13-:grey-700": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#959aaa"
+      },
+      "07-:brand 700": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#7a00cc"
+      },
+      "13-01-:grey-700 ic opp": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#959aaa26"
+      },
+      "10-:accent 200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#ff361b"
+      },
+      "03-:dark grey": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#4d4d4d"
+      },
+      "08-:brand 300": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#dfb8f9"
+      },
+      "08-:brand 100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#f4e7fd"
+      },
+      "16-:grey-100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#f0f0f0"
+      },
+      "17-:grey-050": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#fafafa"
+      },
+      "20-:divider": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "color",
+        "$value": "#e8e9f2"
+      }
+    },
+    "02-:shdw card": {
+      "01-:xxl": {
+        "01-:purple": {
+          "01-01:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#7a00cc00"
+          },
+          "01-03:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#7a00cc0a"
+          },
+          "01-04:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#7a00cc0f"
+          },
+          "01-05:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#7a00cc12"
+          },
+          "01-02:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#7a00cc03"
+          }
+        },
+        "02-:white": {
+          "01-01:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#9e9e9e00"
+          },
+          "01-02:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#9e9e9e03"
+          },
+          "01-03:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#9e9e9e0a"
+          },
+          "01-04:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#9e9e9e0f"
+          },
+          "01-05:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#9e9e9e12"
+          }
+        },
+        "Color": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "02-:xs": {
+        "Color": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "01-:card purple": {
+          "01-01:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#7a00cc00"
+          },
+          "01-02:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#7a00cc05"
+          },
+          "01-03:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#7a00cc0f"
+          },
+          "01-04:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#7a00cc1a"
+          },
+          "01-05:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#7a00cc1f"
+          }
+        },
+        "02-:card white": {
+          "01-01:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#9e9e9e00"
+          },
+          "01-02:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#9e9e9e05"
+          },
+          "01-03:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#9e9e9e0a"
+          },
+          "01-04:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#9e9e9e1a"
+          },
+          "01-05:shadow block": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$type": "color",
+            "$value": "#9e9e9e1f"
+          }
+        }
+      }
+    },
+    "03-:shadow button": {
+      "01-:card purple": {
+        "01-01:shadow button": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#7a00cc00"
+        },
+        "01-02:shadow button": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#7a00cc03"
+        },
+        "01-03:shadow button": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#7a00cc0d"
+        },
+        "01-04:shadow button": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#7a00cc17"
+        },
+        "01-05:shadow button": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#7a00cc1a"
+        }
+      },
+      "02-:card white": {
+        "01-01:shadow button": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#9e9e9e00"
+        },
+        "01-02:shadow button": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#9e9e9e03"
+        },
+        "01-03:shadow button": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#9e9e9e0d"
+        },
+        "01-04:shadow button": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#9e9e9e17"
+        },
+        "01-05:shadow button": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "#9e9e9e1a"
+        }
+      }
+    }
+  },
+  "⭐ 02. typography/standart": {
+    "font family": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "text",
+      "$value": "Gilroy"
+    },
+    "01-:font weight": {
+      "400": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "text",
+        "$value": "Regular"
+      },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "text",
+        "$value": "Medium"
+      },
+      "600": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "text",
+        "$value": "SemiBold"
+      },
+      "700": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "text",
+        "$value": "Bold"
+      }
+    },
+    "02-:line height": {
+      "02-caption": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 1.4
+      },
+      "03-body": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 1.3
+      },
+      "04-headings": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 1.2
+      },
+      "01-basic": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 1.35
+      }
+    }
+  },
+  "⭐ 02. typography/classic": {
+    "font family": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "text",
+      "$value": "TT Commons"
+    },
+    "01-:font weight": {
+      "400": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "text",
+        "$value": "Regular"
+      },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "text",
+        "$value": "Medium"
+      },
+      "600": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "text",
+        "$value": "SemiBold"
+      },
+      "700": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "text",
+        "$value": "Bold"
+      }
+    },
+    "02-:line height": {
+      "02-caption": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0
+      },
+      "03-body": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0
+      },
+      "04-headings": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0
+      },
+      "01-basic": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$type": "number",
+        "$value": 0
+      }
+    }
+  },
+  "⭐ 04. size device/xxl": {
+    "button weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "text",
+      "$value": "fixed"
+    },
+    "device size": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 1440
+    },
+    "icon size": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 24
+    },
+    "btn_height": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 56
+    },
+    "font_btn": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 20
+    },
+    "indentation out": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 24
+    },
+    "indentation in": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 8
+    },
+    "corner radius full": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 999
+    },
+    "card prog weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 592
+    },
+    "card prog height": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 360
+    },
+    "button card weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 272
+    },
+    "card prog height 2": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 636
+    },
+    "corner radius": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 16
+    },
+    "grid indentation out": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 120
+    },
+    "icon line weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 1.2
+    },
+    "menu indentation": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 8
+    }
+  },
+  "⭐ 04. size device/xs": {
+    "button weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "text",
+      "$value": "auto"
+    },
+    "device size": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 320
+    },
+    "icon size": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 16
+    },
+    "btn_height": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 48
+    },
+    "font_btn": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 14
+    },
+    "indentation out": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 16
+    },
+    "indentation in": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 4
+    },
+    "corner radius full": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 999
+    },
+    "card prog weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 272
+    },
+    "card prog height": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 180
+    },
+    "button card weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 240
+    },
+    "card prog height 2": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 408
+    },
+    "corner radius": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 16
+    },
+    "grid indentation out": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 8
+    },
+    "icon line weight": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 0.8
+    },
+    "menu indentation": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      },
+      "$type": "number",
+      "$value": 4
+    }
+  },
+  "⭐ 03. font parametrs/xxl": {
+    "01-basic text": {
+      "02-line height": {
+        "02-body H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 28
+        },
+        "01-heading H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 54
+        },
+        "02-heading H2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 38
+        },
+        "02-body H2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 40
+        },
+        "03-button text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 28
+        },
+        "04- bread crumbs": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        },
+        "05-body H3": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 32
+        },
+        "05-field": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 22
+        },
+        "06-menu item": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        },
+        "07-side menu": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 24
+        },
+        "08-chart text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        },
+        "09-table text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 16
+        },
+        "10-table text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14
+        },
+        "11-body B2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 24
+        },
+        "12-card C1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 24
+        }
+      },
+      "01-font size": {
+        "02-body H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        },
+        "01-heading H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 40
+        },
+        "02-heading H2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 28
+        },
+        "02-body H2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 28
+        },
+        "03-button text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        },
+        "04-bread crumbs": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14
+        },
+        "03-body H3": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 24
+        },
+        "05-field": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 16
+        },
+        "06-menu item": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 16
+        },
+        "07-side menu": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 16
+        },
+        "08-chart text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14
+        },
+        "09-table text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 12
+        },
+        "10-table text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 10
+        },
+        "11-body B2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 18
+        },
+        "12-card C1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 16
+        }
+      },
+      "03-paragraph spacing": {
+        "01-heading H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 40
+        },
+        "02-body": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 16
+        },
+        "03-body H3": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 24
+        }
+      }
+    },
+    "02-card programs text": {
+      "01-font size": {
+        "01-card heading H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 36
+        },
+        "02-card body": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        }
+      },
+      "02-line height": {
+        "01-card heading H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 50
+        },
+        "02-card body": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 28
+        }
+      }
+    }
+  },
+  "⭐ 03. font parametrs/xs": {
+    "01-basic text": {
+      "02-line height": {
+        "02-body H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        },
+        "01-heading H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 28
+        },
+        "02-heading H2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 28
+        },
+        "02-body H2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        },
+        "03-button text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        },
+        "04- bread crumbs": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 10
+        },
+        "05-body H3": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 22
+        },
+        "05-field": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14
+        },
+        "06-menu item": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14
+        },
+        "07-side menu": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14
+        },
+        "08-chart text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 10
+        },
+        "09-table text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 8
+        },
+        "10-table text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 7
+        },
+        "11-body B2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 16
+        },
+        "12-card C1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14
+        }
+      },
+      "01-font size": {
+        "02-body H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14
+        },
+        "01-heading H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        },
+        "02-heading H2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 16
+        },
+        "02-body H2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14
+        },
+        "03-button text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14
+        },
+        "04-bread crumbs": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 8
+        },
+        "03-body H3": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 16
+        },
+        "05-field": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 10
+        },
+        "06-menu item": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 10
+        },
+        "07-side menu": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 10
+        },
+        "08-chart text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 8
+        },
+        "09-table text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 6
+        },
+        "10-table text": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 5
+        },
+        "11-body B2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 12
+        },
+        "12-card C1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 10
+        }
+      },
+      "03-paragraph spacing": {
+        "01-heading H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        },
+        "02-body": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 8
+        },
+        "03-body H3": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 12
+        }
+      }
+    },
+    "02-card programs text": {
+      "01-font size": {
+        "01-card heading H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        },
+        "02-card body": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 14
+        }
+      },
+      "02-line height": {
+        "01-card heading H1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 28
+        },
+        "02-card body": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "number",
+          "$value": 20
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "core",
+      "light",
+      "dark",
+      "theme",
+      "⭐ 01. color basic  /Mode 1",
+      "⭐ 02. typography/standart",
+      "⭐ 02. typography/classic",
+      "⭐ 04. size device/xxl",
+      "⭐ 04. size device/xs",
+      "⭐ 03. font parametrs/xxl",
+      "⭐ 03. font parametrs/xs"
+    ]
+  }
+}
