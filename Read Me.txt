@@ -1,0 +1,1 @@
+To store all tokens in a single JSON file, write the file name (Ex: tokens.json). Pro features, like themes, require a multi-file sync with tokens stored in a folder by writing the folder path (Ex: tokens).
