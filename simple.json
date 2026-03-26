@@ -1,10 +1,160 @@
 {
-  "color": {},
+  "color": {
+    "16": {
+      " chart": {
+        "value": "linear-gradient(180deg, #eacffc 0%, #ad33ff 50.48%, #4c0080 100%)",
+        "type": "color"
+      }
+    },
+    "17": {
+      " table": {
+        "value": "linear-gradient(180deg, #f4e7fd 0%, #dfb8f9 100%)",
+        "type": "color"
+      }
+    },
+    "30": {
+      " divider": {
+        "value": "#e8e9f2",
+        "type": "color"
+      }
+    },
+    "01": {
+      " heading": {
+        "value": "#000000",
+        "type": "color"
+      },
+      " brand 200": {
+        "value": "#eacffc",
+        "type": "color"
+      },
+      " brand 100": {
+        "value": "#f4e7fd",
+        "type": "color"
+      },
+      " accent 500 (base)": {
+        "value": "#ff361b",
+        "type": "color"
+      },
+      " stroke card": {
+        "value": "linear-gradient(180deg, #ffffff 0%, #efefef 100%)",
+        "type": "color"
+      }
+    },
+    "02": {
+      " body": {
+        "value": "#000000",
+        "type": "color"
+      },
+      " stroke invert card": {
+        "value": "linear-gradient(180deg, #efefef 0%, #ffffff 100%)",
+        "type": "color"
+      }
+    },
+    "03": {
+      " body added": {
+        "value": "#4d4d4d",
+        "type": "color"
+      },
+      " brand text": {
+        "value": "#ad33ff",
+        "type": "color"
+      }
+    },
+    "04": {
+      " brand 400": {
+        "value": "#c266ff",
+        "type": "color"
+      }
+    },
+    "05": {
+      " brand 500 (base)": {
+        "value": "#ad33ff",
+        "type": "color"
+      }
+    },
+    "06": {
+      " brand 600": {
+        "value": "#a31aff",
+        "type": "color"
+      }
+    },
+    "07": {
+      " brand 700": {
+        "value": "#7a00cc",
+        "type": "color"
+      }
+    },
+    "01-white": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "04-:grey-050": {
+      "value": "#fafafa",
+      "type": "color"
+    },
+    "05-grey 100": {
+      "value": "#f0f0f0",
+      "type": "color"
+    },
+    "04-grey 200": {
+      "value": "#efefef",
+      "type": "color"
+    },
+    "02-grey 300": {
+      "value": "#cbcdd9",
+      "type": "color"
+    },
+    "03-grey 700": {
+      "value": "#959aaa",
+      "type": "color"
+    },
+    "03-grey 700 opp ic": {
+      "value": "#959aaa26",
+      "type": "color"
+    },
+    "10-button fill": {
+      "value": "#ad33ff",
+      "type": "color"
+    },
+    "11-button text": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "12-button icon": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "20-:card": {
+      "prog": {
+        "H1": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "body": {
+          "value": "#000000",
+          "type": "color"
+        }
+      }
+    }
+  },
   "typography": {},
   "spacing": {},
   "borderRadius": {},
   "sizing": {},
   "borderWidth": {},
   "boxShadow": {},
-  "opacity": {}
+  "opacity": {},
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "color",
+      "typography",
+      "spacing",
+      "borderRadius",
+      "sizing",
+      "borderWidth",
+      "boxShadow",
+      "opacity"
+    ]
+  }
 }
