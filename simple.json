@@ -198,6 +198,51 @@
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography"
+      },
+      " card purrple": {
+        "value": [
+          {
+            "color": "#7a00cc00",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 53,
+            "blur": 15,
+            "spread": 0
+          },
+          {
+            "color": "#7a00cc05",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 34,
+            "blur": 14,
+            "spread": 0
+          },
+          {
+            "color": "#7a00cc0f",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 19,
+            "blur": 11,
+            "spread": 0
+          },
+          {
+            "color": "#7a00cc1a",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 8,
+            "blur": 8,
+            "spread": 0
+          },
+          {
+            "color": "#7a00cc1f",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 2,
+            "blur": 5,
+            "spread": 0
+          }
+        ],
+        "type": "boxShadow"
       }
     },
     "02": {
@@ -250,6 +295,51 @@
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography"
+      },
+      " card white": {
+        "value": [
+          {
+            "color": "#9e9e9e00",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 53,
+            "blur": 15,
+            "spread": 0
+          },
+          {
+            "color": "#9e9e9e05",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 34,
+            "blur": 14,
+            "spread": 0
+          },
+          {
+            "color": "#9e9e9e0a",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 19,
+            "blur": 11,
+            "spread": 0
+          },
+          {
+            "color": "#9e9e9e1a",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 8,
+            "blur": 8,
+            "spread": 0
+          },
+          {
+            "color": "#9e9e9e1f",
+            "type": "dropShadow",
+            "x": 0,
+            "y": 2,
+            "blur": 5,
+            "spread": 0
+          }
+        ],
+        "type": "boxShadow"
       }
     },
     "03": {
@@ -632,6 +722,194 @@
       "0": {
         "value": "0px",
         "type": "dimension"
+      }
+    },
+    "xxl": {
+      "shdw": {
+        "01": {
+          " card purrple": {
+            "value": [
+              {
+                "color": "#7a00cc00",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 229,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc03",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 147,
+                "blur": 59,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc0a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 83,
+                "blur": 50,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc0f",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 37,
+                "blur": 37,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc12",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 9,
+                "blur": 20,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          " button purrple": {
+            "value": [
+              {
+                "color": "#7a00cc00",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 17,
+                "blur": 5,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc03",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 11,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc0d",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 6,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc17",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 3,
+                "blur": 3,
+                "spread": 0
+              },
+              {
+                "color": "#7a00cc1a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 1,
+                "blur": 1,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          }
+        },
+        "02": {
+          " card white": {
+            "value": [
+              {
+                "color": "#9e9e9e00",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 229,
+                "blur": 64,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e03",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 147,
+                "blur": 59,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e0a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 83,
+                "blur": 50,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e0f",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 37,
+                "blur": 37,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e12",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 9,
+                "blur": 20,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          },
+          " button white": {
+            "value": [
+              {
+                "color": "#9e9e9e00",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 17,
+                "blur": 5,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e03",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 11,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e0d",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 6,
+                "blur": 4,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e17",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 3,
+                "blur": 3,
+                "spread": 0
+              },
+              {
+                "color": "#9e9e9e1a",
+                "type": "dropShadow",
+                "x": 0,
+                "y": 1,
+                "blur": 1,
+                "spread": 0
+              }
+            ],
+            "type": "boxShadow"
+          }
+        }
       }
     }
   },
