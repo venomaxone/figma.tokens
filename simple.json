@@ -6,5 +6,18 @@
   "sizing": {},
   "borderWidth": {},
   "boxShadow": {},
-  "opacity": {}
+  "opacity": {},
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "color",
+      "typography",
+      "spacing",
+      "borderRadius",
+      "sizing",
+      "borderWidth",
+      "boxShadow",
+      "opacity"
+    ]
+  }
 }
